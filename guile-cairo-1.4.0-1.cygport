@@ -1,0 +1,8 @@
+DESCRIPTION="Guile bindings for cairo"
+HOMEPAGE="http://home.gna.org/guile-cairo/"
+SRC_URI="http://download.gna.org/${PN}/${P}.tar.gz"
+
+src_install() {
+	cd ${B}
+	cyginstall -j1
+}
