@@ -1,4 +1,4 @@
 category: Scheme
-requires: cygwin libcairo2 libguile17
+requires: libcairo2 libguile17
 sdesc: "Guile cairo bindings"
 ldesc: "Guile-Cairo wraps the Cairo graphics library for Guile Scheme."
